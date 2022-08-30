@@ -21,6 +21,8 @@ find_package(rclcpp REQUIRED)
 find_package(robot_state_publisher REQUIRED)
 find_package(rviz2 REQUIRED)
 find_package(xacro REQUIRED)
+find_package(gazebo_ros REQUIRED)
+find_package(my_rb1_description REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -37,6 +39,7 @@ install(
   DIRECTORY
     rviz
     launch
+	worlds
   DESTINATION
     share/${PROJECT_NAME}/
 )
