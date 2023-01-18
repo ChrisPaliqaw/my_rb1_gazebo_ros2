@@ -2,7 +2,7 @@
 
 for necessary setup instructions, first see [my_rb1_description_ros2](https://github.com/ChrisPaliqaw/my_rb1_description_ros2)
 
-for compatibility with project instructions, check out using:
+for compatibility with project instructions, clone into your ros2 workspace using:
 ```
 git clone https://github.com/ChrisPaliqaw/my_rb1_gazebo_ros2 my_rb1_gazebo
 ```
