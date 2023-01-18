@@ -37,7 +37,7 @@ endif()
 
 install(
   DIRECTORY
-    rviz
+    # rviz
     launch
 	worlds
   DESTINATION
